@@ -142,7 +142,7 @@ The login checks if you entered the right username and password.
 -An alert pops out when you fail the combination
 -In this example the right combination is (admin - 1234)
 
-![image](https://user-images.githubusercontent.com/81707462/137818472-4a5f46fd-1d51-4059-b567-d09c149e4706.png)
+![image](https://user-images.githubusercontent.com/81707462/137819678-fe820a01-cb68-49c4-9248-2bd2652ec5af.png)
 
 #### Admin menu
 
