@@ -152,6 +152,14 @@ To open the menu press the button on the top and it will appear at the left side
 
 ![image](https://user-images.githubusercontent.com/81707462/137819625-baf22a13-f32e-4104-a941-3869efced670.png)
 
+#### Protoype vs Release
+I tried to to change as little as possible, but I couldn't ressit making some upgrades, and I forgot to make the products search.
+But im satisfied with the ressults, it looks like it evolved:
+
+![image](https://user-images.githubusercontent.com/81707462/137820954-ae003301-1d93-4fad-a277-adfbd947189e.png)
+
+
+
 ### Useful links that I used
 
 As this is the first time I really don't know everysingle page I used, because there were a lot.
