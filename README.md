@@ -83,7 +83,7 @@ a search bar that actually works to search the name of the product.
 
 ![image](https://user-images.githubusercontent.com/81707462/137815329-d25f741a-990f-4745-9b04-dd5c295a36b0.png)
 
-### Fast tutorial
+### Dependencies and fast tutorial
 
 Visual Studio Code Version: 1.61.1
 
