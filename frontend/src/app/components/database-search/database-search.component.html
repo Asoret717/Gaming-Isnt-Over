@@ -1,0 +1,13 @@
+<p id="title" style="font-weight:bold">Searching products   
+  <code class="java">'{{this.technologyService.getSearchedProduct()}}'</code><br><br></p>
+
+<div *ngFor="let b of gaming">
+  <ion-card *ngIf="b.name.toLowerCase().indexOf(this.technologyService.getSearchedProduct()) != -1"
+    style="position: relative;">
+    <p *ng-repeat="this.addProductNumber()"></p>
+    <img  src="/assets/images/technology/{{b.filename}}" width=240px height=150px />
+    <div style="font-weight:bold" class="card-title">{{b.name}}</div>
+    <div id="title2" style="font-weight:bold" class="card-subtitle">{{b.price}}</div>
+  </ion-card>
+</div><br>
+<p *ngIf="this.productNumberZero()==true" id="text">There wasn't any coincidence</p>

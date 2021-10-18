@@ -1,0 +1,20 @@
+#portada{
+    --background: url("/assets/images/background2.png") no-repeat center center / cover;
+  }
+  #title {
+    text-align: center;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0)
+  }
+  #container {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .my-custom-menu {
+    --width: 500px;
+  }

@@ -1,0 +1,42 @@
+<app-main-menu></app-main-menu>
+
+<ion-content style="height: 600px;">
+  <div id="container">
+    <p>Technology</p>
+    <ion-row>
+      <ion-col>
+        <ion-button id="arcade" color=" " fill="outline" style="background-color: rgb(60, 120, 148); color:white; height:30px"
+        (click)="buttonSearch('mouse')">Mouse</ion-button>    
+      </ion-col>
+      <ion-col style="right: -1%;">
+        <ion-button id="arcade" color=" " fill="outline" style="background-color: rgb(60, 120, 148); color:white; height:30px"
+        (click)="buttonSearch('desktop')">Desktop</ion-button>    
+      </ion-col>
+      <ion-col>
+        <ion-button id="arcade" color=" " fill="outline" style="background-color: rgb(60, 120, 148); color:white; height:30px"
+        (click)="buttonSearch('ram')">Ram</ion-button>    
+      </ion-col>
+    </ion-row>
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()" novalidate>
+      <ion-item lines="full">
+        <ion-label position="floating">Product name</ion-label>
+        <ion-input formControlName="username" type="text"></ion-input>
+      </ion-item>
+      <span class="error ion-padding" *ngIf="submitted && errorCtr.username.errors?.required">
+        Word is required.
+      </span>
+      <span class="error ion-padding" *ngIf="submitted && errorCtr.username.errors?.minlength">
+        The word is short.
+      </span>
+      <ion-row>
+        <ion-col>
+          <ion-button id="arcade" color=" " type="submit" fill="outline" style="background-color: rgb(60, 62, 148); color:white;">
+          Search</ion-button><br><br>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+  <app-database-table></app-database-table>
+</ion-content>
+
+<app-footer></app-footer>

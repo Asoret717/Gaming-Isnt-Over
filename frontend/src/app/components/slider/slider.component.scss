@@ -1,0 +1,48 @@
+ 
+  #slide{
+    object-fit: cover;
+    width: 160px;
+    height: 135px;
+    background-color: rgba(58, 58, 58, 0.671);
+    border-color: black; 
+    border-width: .01em; 
+    border-style:solid;
+  }
+
+  #downDiv{
+    position: absolute;
+    text-align: center;
+    bottom: 8%;
+    height: 135px;
+  }
+  
+  #name{
+    position: absolute;
+    left: 5%;
+    bottom:18%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7923c8;
+    margin: 0;
+    font-family: 'arcade';
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0)
+  }
+  
+  #description{
+    position: absolute;
+    left: 5%;
+    bottom:4%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'arcade';
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0)
+  }
+
+  @font-face {
+    font-family: 'arcade'; /*a name to be used later*/
+    src: url("/assets/fonts/ARCADECLASSIC.TTF");
+}

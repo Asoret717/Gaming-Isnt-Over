@@ -1,0 +1,27 @@
+<app-main-menu></app-main-menu>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <br>
+    <p id=title>Phone Number</p>
+    <p id=title2>928-123-456</p>
+  </div>
+    <br>
+  <div id="centerDiv">
+    <p id="center">Open 24/7 to not <br> make you wait</p>  
+  </div><br>
+  <p id=title>Send us your <br> questions</p><br>
+  <div id="centerDiv">
+    <p id=center>Name:</p>
+    <input type="text" ><br><br>
+    <p id=center>Mail:</p>
+    <input type="text"><br><br>
+    <p id=center>Message:</p>
+    <input type="text" style="height: 65px;"><br><br>
+    <ion-button id="arcade" color=" " fill="outline" style="background-color: rgb(60, 62, 148); color:white;"
+    (click)="showAlert()">
+      Send</ion-button><br><br>
+  </div>
+</ion-content>
+
+<app-footer></app-footer>

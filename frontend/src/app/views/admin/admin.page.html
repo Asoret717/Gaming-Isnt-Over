@@ -1,0 +1,27 @@
+<app-second-menu></app-second-menu>
+
+<ion-content id="portada" [fullscreen]="true">
+  <div id="container">
+    <br><br><br><br><br><br>
+    <p id=title>You entered the private Zone </p>
+  </div><br><br>
+</ion-content>
+
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Admin Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content style="--background-color: white;">
+    <ion-list>
+      <ion-item>Search New Products</ion-item>
+      <ion-item>Made Delivery</ion-item>
+      <ion-item>Cancelled Delivery</ion-item>
+      <ion-item>Settings</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-router-outlet id="main"></ion-router-outlet>
+
+<app-footer></app-footer>

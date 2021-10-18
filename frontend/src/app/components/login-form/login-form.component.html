@@ -1,0 +1,30 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" novalidate>
+  <ion-item lines="full">
+    <ion-label position="floating">Username</ion-label>
+    <ion-input formControlName="username" type="text"></ion-input>
+  </ion-item>
+  <span class="error ion-padding" *ngIf="submitted && errorCtr.username.errors?.required">
+    Username is required.
+  </span>
+  <span class="error ion-padding" *ngIf="submitted && errorCtr.username.errors?.minlength">
+    The username is short.
+  </span>
+
+  <ion-item lines="full">
+    <ion-label position="floating">Password</ion-label>
+    <ion-input formControlName="password" type="password"></ion-input>
+  </ion-item>
+  <span class="error ion-padding" *ngIf="submitted && errorCtr.password.errors?.required">
+    Password is required.
+  </span>
+  <span class="error ion-padding" *ngIf="submitted && errorCtr.password.errors?.minlength">
+    Enter valid password.
+  </span>
+  <br>
+  <ion-row>
+    <ion-col>
+      <ion-button id="arcade" type="submit" color=" " fill="outline" style="background-color: rgb(60, 62, 148); color:white;" 
+      expand="block" >Log in</ion-button><br>
+    </ion-col>
+  </ion-row>
+</form>

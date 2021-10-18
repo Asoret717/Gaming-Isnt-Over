@@ -1,0 +1,34 @@
+#Grid{
+    text-align: center;
+    background-color: rgba(58, 58, 58, 0.671);
+    border-color: black; 
+    border-width: .01em; 
+    border-style:solid;
+    margin-right:10%;
+    margin-left:10%;
+    flex: 0 0 4px;
+    padding:0;
+  }
+
+  #slide{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(58, 58, 58, 0.671);
+    border-color: black; 
+    border-width: .01em; 
+    border-style: solid;
+  }
+  #price{
+    position: absolute;
+    left: 5%;
+    bottom:4%;
+    font-size: 19px;
+    line-height: 22px;
+    color: #2a69f0;
+    margin: 0;
+    font-family: 'arcade';
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0)
+  }
+  
