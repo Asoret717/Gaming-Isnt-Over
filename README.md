@@ -150,7 +150,7 @@ To open the menu press the button on the top and it will appear at the left side
 -Press the logout button to get out
 -For now it really doesn't do much
 
-![image](https://user-images.githubusercontent.com/81707462/137818715-c58e2472-e547-4470-b161-dd8b53e16afe.png)
+![image](https://user-images.githubusercontent.com/81707462/137819625-baf22a13-f32e-4104-a941-3869efced670.png)
 
 ### Useful links that I used
 
