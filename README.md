@@ -36,7 +36,7 @@ the sql operations easier. To sum up it controls 2 tables employees and technolo
 
 ![image](https://user-images.githubusercontent.com/81707462/137812434-90412053-4d18-457b-b274-9129a4533849.png)
 
-## Dependencies and fast tutorial
+### Dependencies and fast tutorial
 
 Eclipse Version: 2021-09 (4.21.0)            Spring Tools 4: 4.12.0.RELEASE 
 
