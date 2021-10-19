@@ -24,8 +24,9 @@ Mysql uses ports 80,443 and 3306. The Backend with Java Swing port 8080 and the 
 
 ### Commands
 
-To install ionic after getting ng.modules LTS:
+To install ionic and otther modules after getting ng.modules LTS:
 
+npm install
 npm install -g @ionic/cli
 
 To call the frontend, remember to use this one,situated in the frontend folder, to open it in mobile view:
@@ -99,7 +100,7 @@ Next with right click in the frontend folder open the integrated terminal:
 
 ![image](https://user-images.githubusercontent.com/81707462/137816061-166a2552-757a-43ec-8904-36308fde1a5b.png)
 
-Now you are able to run the command to get ionic "npm install -g @ionic/cli":
+Now you are able to run the command to get ionic and other modules needed "npm install" and "npm install -g @ionic/cli":
 
 ![image](https://user-images.githubusercontent.com/81707462/137817214-bb53860e-5408-4d90-9e71-6a9b8146f570.png)
 
